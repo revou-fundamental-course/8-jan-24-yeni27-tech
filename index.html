@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>square calculation</title>
+<link rel="stylesheet" href="./css/style.css">
+<script src="./js/script.js"></script>
+</head>
+<body>
+    <section id="all">
+   <div class="content">
+    <header class="title">
+        <h1>square calculation</h1>
+    </header>
+
+    <div class="square"></div>
+
+    <h1 class="judul_rumus">Rumus</h1>
+    <div class="rumus">
+        <div>
+                <b class="l keliling">keliling</b><br>
+                K= 4xS
+        </div>
+        <div>
+                  <b class="l luas">luas</b><br>
+                L= SxS
+        </div>
+    </div>
+
+    <div class="keterangan">
+        <h1>keterangan</h1>
+        <div>
+            <p class="satu">
+            K= Keliling
+            </p>
+            <p class="dua">
+            L= Luas
+            </p>
+            <p class="tiga">
+            S= Sisi - Sisi
+            </p>
+        </div>
+    </div>
+
+    <section id="content">
+        <h1 class="title">calculate</h1>
+
+        <div class="isi">
+            <div class="input">
+                <div class="display-flex">
+                <label>SISI:</label>
+            <input type="number" id="s">
+            CM<br>
+            <button id="btnhitung" onclick="hitung()">Hitung</button>
+            </div>
+            </div>
+            <div class="display-flex2">
+        <h1 class="hasil-ttl">hasil</h1>
+        <div class="hasil">
+            <P class="hasil1">Luas:   <span id="luas"></span></P>
+            <p class="hasil2">Keliling:   <span id="kel"></span></p>
+            </div>
+            </div>
+        </div>
+        <footer><center>©Yeni Faturohmah 2024</center></footer>
+    </section>
+   </div>
+</section>
+</body>
+</html>
